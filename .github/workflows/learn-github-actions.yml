@@ -1,0 +1,11 @@
+name: Test
+on: [push]
+jobs:
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Check HTML
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: "./"

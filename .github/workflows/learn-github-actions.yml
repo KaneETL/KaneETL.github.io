@@ -1,4 +1,9 @@
-- name: Check HTML
-  uses: chabad360/htmlproofer@master
-  with:
-  directory: "./"
+name: Test
+on: [push]
+jobs:
+  Test:
+    steps:
+      - name: Check HTML
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: "./"

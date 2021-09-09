@@ -41,7 +41,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         runs-on: ubuntu-latest
-        steps:
+       # steps:
                 # Use avinal/github-pages-deploy-action@<latest-release-tag> for latest stable release
                 # Do not change the line below except the word main with tag number maybe
       - uses: avinal/github-pages-deploy-action@main

@@ -1,0 +1,20 @@
+{% extends ".base.html" %}
+{% block title %}About me{% endblock %}
+{% block head %}
+{{ super() }}
+<style type="text/css">
+    .important {
+        color: #336699;
+    }
+</style>
+{% endblock %}
+{% block content %}
+<h1 class="py-3">About me</h1>
+<img src="/static/images/profile.png" class="img-fluid px-5 py-3 rounded-circle" alt="Profile Picture" />
+<p>
+    Email:
+    <a href="mailto:kturbittlewis@gmail.com">kturbittlewis@gmail.com</a>
+</p>
+<p>Mobile: 888888888</p>
+
+{% endblock %}

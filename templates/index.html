@@ -1,0 +1,21 @@
+{% extends ".base.html" %}
+{% block title %}Home page{% endblock %}
+{% block head %}
+{{ super() }}
+<style type="text/css">
+    .important {
+        color: #336699;
+    }
+</style>
+{% endblock %}
+{% block content %}
+<a href="Axolotl_project.html">
+    <div class="card" style="width: 18rem;">
+        <img src="/static/images/Axolotl website.PNG" class="card-img-top" alt="Axolotl facts website image">
+        <div class="card-body">
+            <p class="card-text">Axolotl facts website</p>
+        </div>
+    </div>
+</a>
+
+{% endblock %}
